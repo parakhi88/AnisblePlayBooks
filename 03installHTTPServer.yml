@@ -4,6 +4,6 @@
 - hosts: all
   become: true
   tasks:
-    - name: Install Apache HTTP server
-      apt: name=httpd update_cache=yes state=latest
+    - name: Install Apache2 
+      apt: name=apache2 update_cache=yes state=latest
 ...
