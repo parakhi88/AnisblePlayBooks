@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: dev
   tasks:
   - name: Display the date
     command: date
